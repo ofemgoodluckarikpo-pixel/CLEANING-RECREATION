@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshCare | Professional Cleaning Services</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="top-bar">
+    Professional cleaning services you can trust
+    <span>Call us: +1 (800) 555-0148</span>
+  </div>
+
+  <header class="header">
+    <a href="#" class="logo">Fresh<span>Care</span><small> CLEANING SERVICES</small></a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About Us</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <a href="#booking" class="nav-button">Book a Cleaning</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">A CLEANER SPACE. A HAPPIER YOU.</p>
+        <h1>We Make Your Space <span>Shine</span></h1>
+        <p class="hero-text">
+          Enjoy a fresh, spotless home or workplace with our reliable
+          and professional cleaning team.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#booking" class="button primary">Book Our Service</a>
+          <a href="#services" class="button secondary">Explore Services</a>
+        </div>
+
+        <div class="hero-rating">
+          <strong>★★★★★</strong>
+          <span>Trusted cleaning for homes and businesses</span>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=85"
+          alt="Professional cleaner cleaning a bright room">
+        <div class="floating-card">
+          <strong>100%</strong>
+          <span>Cleaning satisfaction</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>✓</strong> Experienced Team</div>
+      <div><strong>✓</strong> Quality Products</div>
+      <div><strong>✓</strong> Flexible Scheduling</div>
+      <div><strong>✓</strong> Customer Focused</div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT WE DO</p>
+        <h2>Our Cleaning Services</h2>
+        <p>Simple, dependable cleaning solutions for every space.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80" alt="Clean living room">
+          <div class="service-info">
+            <span class="service-icon">⌂</span>
+            <h3>Residential Cleaning</h3>
+            <p>Keep your home neat, fresh and comfortable with our home cleaning service.</p>
+            <a href="#booking">Book Service →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80" alt="Clean modern office">
+          <div class="service-info">
+            <span class="service-icon">▦</span>
+            <h3>Office Cleaning</h3>
+            <p>Maintain a clean and welcoming workplace for your team and visitors.</p>
+            <a href="#booking">Book Service →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80" alt="Clean kitchen">
+          <div class="service-info">
+            <span class="service-icon">✦</span>
+            <h3>Deep Cleaning</h3>
+            <p>Give kitchens, bathrooms and hard-to-reach areas extra attention.</p>
+            <a href="#booking">Book Service →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=900&q=80" alt="Cleaning professional at work">
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">ABOUT FRESHCARE</p>
+        <h2>We Care About Every Detail</h2>
+        <p>
+          At FreshCare, we believe that a clean environment makes life
+          better. Our team focuses on dependable service, attention to
+          detail and a great customer experience.
+        </p>
+        <ul>
+          <li>✓ Friendly and professional cleaners</li>
+          <li>✓ Attention to the little details</li>
+          <li>✓ Services tailored to your needs</li>
+        </ul>
+        <a href="#booking" class="button primary">Get Started</a>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow">SIMPLE PRICING</p>
+        <h2>Choose Your Cleaning Plan</h2>
+        <p>Sample prices for this website recreation.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Basic Clean</h3>
+          <p>Great for regular upkeep.</p>
+          <div class="price">$49 <span>/ visit</span></div>
+          <ul>
+            <li>✓ Dusting and wiping</li>
+            <li>✓ Floor cleaning</li>
+            <li>✓ General tidying</li>
+          </ul>
+          <a href="#booking" class="button secondary">Choose Plan</a>
+        </article>
+
+        <article class="price-card featured">
+          <span class="popular">POPULAR</span>
+          <h3>Deep Clean</h3>
+          <p>Extra attention for your space.</p>
+          <div class="price">$89 <span>/ visit</span></div>
+          <ul>
+            <li>✓ Everything in Basic</li>
+            <li>✓ Kitchen and bathroom focus</li>
+            <li>✓ Detailed surface cleaning</li>
+          </ul>
+          <a href="#booking" class="button primary">Choose Plan</a>
+        </article>
+
+        <article class="price-card">
+          <h3>Office Clean</h3>
+          <p>For a fresh working environment.</p>
+          <div class="price">$129 <span>/ visit</span></div>
+          <ul>
+            <li>✓ Workspace cleaning</li>
+            <li>✓ Shared area cleaning</li>
+            <li>✓ Flexible scheduling</li>
+          </ul>
+          <a href="#booking" class="button secondary">Choose Plan</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="booking-content">
+        <p class="eyebrow">LET'S GET STARTED</p>
+        <h2>Book Your Cleaning Today</h2>
+        <p>Fill out the form to preview a cleaning request.</p>
+      </div>
+
+      <form id="booking-form">
+        <div class="form-row">
+          <input type="text" id="customer-name" placeholder="Your name" required>
+          <input type="email" id="customer-email" placeholder="Email address" required>
+        </div>
+
+        <div class="form-row">
+          <select id="service-type" required>
+            <option value="">Choose a service</option>
+            <option>Residential Cleaning</option>
+            <option>Office Cleaning</option>
+            <option>Deep Cleaning</option>
+          </select>
+          <input type="date" id="booking-date" required>
+        </div>
+
+        <button type="submit" class="button primary">Request Booking</button>
+        <p id="booking-message" role="status"></p>
+      </form>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="section-heading">
+        <p class="eyebrow">CUSTOMER FEEDBACK</p>
+        <h2>What Our Customers Say</h2>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“The team was professional and left everything looking fresh and tidy.”</p>
+          <h4>Sarah M.</h4>
+          <span>Homeowner</span>
+        </article>
+
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Booking was simple, and our office looked great after the service.”</p>
+          <h4>David R.</h4>
+          <span>Business Customer</span>
+        </article>
+
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“A convenient service with great attention to detail. Highly recommended.”</p>
+          <h4>Emily T.</h4>
+          <span>Regular Customer</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready for a Cleaner Space?</h2>
+      <p>Let FreshCare take care of the cleaning while you focus on what matters.</p>
+      <a href="#booking" class="button light-button">Book Your Cleaning</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">Fresh<span>Care</span><small> CLEANING SERVICES</small></a>
+    <p>Professional cleaning for homes and businesses.</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#booking">Contact</a>
+    </div>
+    <p class="copyright">© 2026 FreshCare. Website recreation project.</p>
+  </footer>
+
+</body>
+</html>
